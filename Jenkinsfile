@@ -34,7 +34,7 @@ pipeline
          }
          stage ( 'Deploy-Release-env')
          {
-             steps { sh "echo Release-env-Deploy")}
+             steps { sh "echo Release-env-Deploy"}
          }
      }
 }
